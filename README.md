@@ -35,7 +35,7 @@ HATÁRÉRTÉK TESZTELÉS megvalósítás
 szóbeli rész: mi a DIP?
 miben használatos a DIP, miért jó?
 
-plantUML-ben egy alap DIP rajzolása:
+### plantUML-ben egy alap DIP rajzolása:
 ```@startuml
 hide empty members
 interface FelsoSzintService
@@ -54,10 +54,10 @@ AlsoSzintN -up-|> FelsoSzintService
 ```
 ![Alap DIP](https://github.com/OOHQ3E/RTTVizsga20230111/blob/main/images/defaultDIPuml.png)
 
-Mi a kedvenc design attern?
+### Mi a kedvenc design pattern?
 választott: state
 state pattern elmagyarázása, benne a DIP hogyan jelenik meg
-state pattern UML
+### state pattern UML
 
 ```
 @startuml
@@ -86,7 +86,7 @@ Context .. ContextNote
 ```
 ![Alap State Pattern](https://github.com/OOHQ3E/RTTVizsga20230111/blob/main/images/defaultStatePatternUML.png)
 
-konkrét State megvalósítás:
+### konkrét State megvalósítás:
 
 ```
 @startuml
